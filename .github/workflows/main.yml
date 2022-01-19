@@ -16,4 +16,4 @@ jobs:
 
       - name: build-java-maven
         if: hashFiles('pom.xml') != ''
-        uses: actions/build-java-maven-action@v1
+        uses: msummers-nr/build-java-maven-action@v1
